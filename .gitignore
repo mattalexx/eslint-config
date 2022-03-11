@@ -1,0 +1,11 @@
+node_modules
+/dist*
+.swc
+# Editors
+*.sw*
+*.iml
+.vscode/
+# From tsc
+out
+# from swc, the TS compiler
+.swc/

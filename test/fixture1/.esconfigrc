@@ -1,0 +1,3 @@
+{
+    "extends": "@mattalxndr/eslint-config/base"
+}

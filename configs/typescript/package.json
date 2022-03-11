@@ -1,0 +1,27 @@
+{
+    "name": "@mattalxndr/eslint-config-typescript",
+    "version": "0.1.0",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "author": "Matt Alexander <matt@alxndr.me> (https://github.com/mattalexx)",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "eslint": ">=7.4.0",
+        "typescript": ">=3.9"
+    },
+    "dependencies": {
+        "@mattalxndr/eslint-config-base": "file:../base",
+        "@typescript-eslint/eslint-plugin": "^5.14.0",
+        "@typescript-eslint/parser": "^5.14.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.10.0"
+    }
+}

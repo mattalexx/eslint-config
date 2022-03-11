@@ -1,0 +1,26 @@
+{
+    "name": "@mattalxndr/eslint-config",
+    "version": "0.1.0",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "author": "Matt Alexander <matt@alxndr.me> (https://github.com/mattalexx)",
+    "main": "index.js",
+    "files": [
+      "index.js"
+    ],
+    "peerDependencies": {
+      "eslint": ">=7.4.0"
+    },
+    "dependencies": {
+      "@antfu/eslint-config-base": "file:../base",
+      "eslint-plugin-unicorn": "^41.0.0"
+    },
+    "devDependencies": {
+      "eslint": "^8.10.0"
+    },
+    "publishConfig": {
+      "access": "public"
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "name": "@mattalxndr/eslint-config-collection",
+    "version": "0.1.0",
+    "private": "true",
+    "license": "MIT",
+    "author": "Matt Alexander <matt@alxndr.me> (https://github.com/mattalexx)",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.14.0",
+        "@typescript-eslint/parser": "^5.14.0",
+        "eslint-plugin-node": "^11.1.0"
+    },
+    "devDependencies": {
+        "@mattalxndr/eslint-config": "file:../default",
+        "eslint": "^8.10.0",
+        "typescript": "^4.6.2"
+    }
+}
